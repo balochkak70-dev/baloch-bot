@@ -1,10 +1,21 @@
 {
   "name": "baileys-bot",
   "version": "1.0.0",
+  "description": "Mobile-friendly WhatsApp bot using Baileys, ready for Railway deployment",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "railway",
+    "mobile"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
     "qrcode-terminal": "^0.12.0"
